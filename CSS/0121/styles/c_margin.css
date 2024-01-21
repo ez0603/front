@@ -1,0 +1,25 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #222;
+  /* 세로로 정렬되던것을 가로로 정렬 */
+  /* display: inline-block; */
+}
+
+#margin1 { margin: 50px;}
+#margin2 { margin: 30px 50px;}
+#margin3 { margin: 30px 20px 50px;}
+#margin4 { margin: 30px 20px 50px 40px;}
+#margin5 { margin-right: 20px;}
+
+.div {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.center {
+  width: 100px;
+  margin: 0 auto;
+}
+
