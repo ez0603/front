@@ -1,0 +1,16 @@
+section {
+  /* section 태그를 flex container로 지정 */
+  display: flex;
+  /* 기본축 정렬 방향을 열방향으로 지정 */
+  /* flex-direction: row */
+  /* 아이템들을 여러 줄로 래핑 */
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: aqua;
+
+  /* flex 아이템들의 너비를 동일하게 지정 */
+  flex: 200px;
+}
