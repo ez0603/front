@@ -92,6 +92,17 @@
 : git push orign main
 
 ? 리모트 저장소 추가
-: 작업하는 환경(workspace)가 원격 리포지토리를 연결
+새롭게 작업할 로컬 환경에서 새폴더에 git bash 열기
+
+1. 깃 초기화
+: git init
+
+2. 브랜치 이름 변경
+: git branch -M main
+
+3. 작업하는 환경(workspace)가 원격 리포지토리를 연결
 : git remote add origin 리모트 저장소 URL
+
+4. 원격 리포지토리의 내용을 받아오기
+: git pull origin main
 */
