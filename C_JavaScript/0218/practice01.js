@@ -66,7 +66,7 @@ const users = [
     { name: "Doe", age: 18 }
 ];
 
-// users는 매개변수 명
+// users는 매개변수명
 function adultUserNames(users) {
     return users
     .filter(user => user.age >= 18)
